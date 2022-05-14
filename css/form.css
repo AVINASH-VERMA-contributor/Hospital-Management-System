@@ -1,0 +1,39 @@
+
+body {
+    padding: 0px;
+    min-height: 100vh;
+    background: linear-gradient(to top left, #ffd68b, rgb(255, 206, 100));
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.form{
+    width:400px; 
+    min-width:300px; 
+    margin:10p 20px; 
+    padding:20px;
+    background-color:rgba(216, 216, 216, 0.2);
+    box-shadow: 0 0 80px rgba(0,0,0,0.4);
+    backdrop-filter: blur(20px);
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+
+            animation-duration: 3s;
+            animation-name: float;
+            animation-iteration-count: infinite;
+            animation-timing-function: steps(999999);
+}
+@keyframes float {
+            0% { transform: translate(0, 0px); }
+            50%  { transform: translate(0, 10px); }
+            100%   { transform: translate(0, 0px); }
+        }
+
+      
+
+        .btn{
+            background-color: white;
+            color: black;
+                }
+
