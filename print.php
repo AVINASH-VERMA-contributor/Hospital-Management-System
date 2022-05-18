@@ -31,7 +31,7 @@ $rowe = mysqli_fetch_assoc($resulte);
 <div class="container">
 <div class="row">
 <div class="col-md-12 col-xs-12 ">
-<h1 class="text-center ">Health Care Hospital<br /><small style="font-size:20px">Patient Invoice</small></h1></div>
+<h1 class="text-center ">City Hospital<br /><small style="font-size:20px">Patient Invoice</small></h1></div>
 </div>
 </div>
 

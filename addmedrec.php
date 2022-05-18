@@ -75,7 +75,7 @@
     <tr>
     <td colspan="2" style="padding:5px">
       Patient Full Name:
-    <div class="input-group col-md-12 col-xs-12"><input value="<?php echo $row["pet_fn"]; ?> <?php echo $row["pet_sn"]; ?>" required name="dname" id="lname"   type="text" class="form-control" placeholder="Doctor Name">
+    <div class="input-group col-md-12 col-xs-12"><input value="<?php echo $row["pet_fn"]; ?> <?php echo $row["pet_sn"]; ?>" required name="dname" id="lname"   type="text" class="form-control" placeholder="Patient Name">
 	</div>
     </td>
   </tr>

@@ -8,7 +8,10 @@
 <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <title>Hospital Management System</title>
-<link rel="stylesheet" type="text/css" href="css/staff.css"/><script type="text/javascript" src="js/rightde.js"></script>
+<link rel="stylesheet" type="text/css" href="css/staff.css"/>
+<link rel="stylesheet" type="text/css" href="css/background.css"/>
+
+<script type="text/javascript" src="js/rightde.js"></script>
 <style type="text/css">
 </style>
 </head>
@@ -26,7 +29,7 @@ $row = mysqli_fetch_assoc($result);
 <div class="container">
 <div class="row">
 <div class="col-md-12 col-xs-12 ">
-<h1 class="text-center ">Health Care Hospital<br /><small style="font-size:20px">Hospital Management System</small></h1></div>
+<h1 class="text-center ">City Hospital<br /><small style="font-size:20px">Hospital Management System</small></h1></div>
 </div>
 </div>
 

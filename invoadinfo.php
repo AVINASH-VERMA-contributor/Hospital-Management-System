@@ -36,8 +36,8 @@
 <div class="container-fluid">
 <div class="row">
 <ul class="nav  nav-justified" style="background-color:#FFF;">
-  <li style="font-family:calibri; font-size:16px;"><a style="color:#000" href="invoinfo.php"><strong>OPD Patients Invoices</strong></a></li>
-  <li class="active" style="font-family:calibri; font-size:16px;"><a style="color:#000" href="invoadinfo.php"><strong>Admited Patients Invoices</strong></a></li>
+  <li style="font-family:calibri; font-size:16px;"><a style="color:#000" href="invoinfo.php"><strong>All OPD Patients Invoices</strong></a></li>
+  <li class="active" style="font-family:calibri; font-size:16px;"><a style="color:#000" href="invoadinfo.php"><strong>All Admited Patients Invoices</strong></a></li>
 
 </ul>
 </div></div>
@@ -92,7 +92,9 @@ while($row = mysqli_fetch_assoc($result)) { ?>
     <td align="center">Rs. <?php echo $row["ser_char"]; ?></td>
     <td align="center">Rs. <?php echo $row["totl"]; ?> </td>
     <td align="center"><a target="_blank" href="print.php?id=<?php echo $row["Invo_no"]; ?> & ide=<?php echo $row["pet_no"]; ?>" name="ad">View</a></td>
-</tr>
+    <td align="center"><a target="_blank" href="addmedrec.php?id=<?php echo $row["Invo_no"]; ?> & ide=<?php echo $row["pet_no"]; ?>" name="mr">Add Medical Record</a></td>
+
+  </tr>
 <?php $count++; } ?>
 </tbody>
 </table>
